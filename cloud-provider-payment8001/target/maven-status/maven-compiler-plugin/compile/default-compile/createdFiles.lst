@@ -1,7 +1,0 @@
-com\cht\cloud\CloudProviderPayment8001.class
-com\cht\cloud\common\CommonResponse.class
-com\cht\cloud\entities\Payment.class
-com\cht\cloud\mapper\PaymentMapper.class
-com\cht\cloud\service\PaymentService.class
-com\cht\cloud\controller\PaymentController.class
-com\cht\cloud\service\impl\PaymentServiceImpl.class
