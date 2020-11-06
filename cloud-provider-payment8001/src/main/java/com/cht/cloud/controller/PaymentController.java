@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
+
 @RestController
 @RequestMapping("/payment")
 @Slf4j
@@ -18,6 +20,9 @@ public class PaymentController {
 
     @Autowired
     private PaymentService paymentService;
+
+    public PaymentController() throws IOException {
+    }
 
     @GetMapping("/{id}")
     public CommonResponse getPaymentById(@PathVariable Long id) {
